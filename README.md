@@ -2,19 +2,19 @@
 ## Description
 This is an ImageJ based led matrix frames editor for the Arduino Uno R4 WiFi led matrix  
 ## Software involved 
-- ImageJ
+- ImageJ.
 ImageJ is a free open source image processing software developed by Wayne Rasband.
-- JSSC library
+- JSSC library.
 JSSC is a Java library for serial pot communication. 
-- Serial Macro Extensions plugin
+- Serial Macro Extensions plugin.
 This ImageJ plugin is a JSSC wrapper to provide serial access from the ImageJ macro programming language. 
-- ActionBar plugin
+- ActionBar plugin.
 This ImageJ plugin allows to extend ImageJ GUI with customizable button bars.
-- LED_Matrix.ijm config file
+- LED_Matrix.ijm config file.
 This file is used by ActionBar to render the additional GUI buttons and define what they are doing. 
-- Matrix.tif sample file 
+- Matrix.tif sample file.
 This is an example multipage TIFF file that can hold matrix frames.  
-- PreviewMatrix.ino
+- PreviewMatrix.ino. 
 This is the UNO R4 WiFi firmware that accepts sets of bytes and updates the LED matrix. It's modified from the Arduino "live preview" example sketch. 
  
 ## Usage
