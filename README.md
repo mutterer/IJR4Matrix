@@ -28,6 +28,12 @@ This is an example multipage TIFF file that can hold matrix frames.
   
 This is the UNO R4 WiFi firmware that accepts sets of bytes and updates the LED matrix. It's modified from the Arduino "live preview" example sketch. 
  
+## Installation
+- Install ImageJ from instructions at ```https://imagej.nih.gov/ij/download.html```
+- Clone this repository
+- Move all files to your local ```ImageJ/plugins/``` folder
+
+
 ## Usage
 - Start ImageJ
 - Select ```ImageJ>Plugins>ActionBar>LED_Matrix``` to start the led matrix editor
